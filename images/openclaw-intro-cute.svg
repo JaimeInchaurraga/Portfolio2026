@@ -1,0 +1,96 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgSky" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF6FF"/>
+      <stop offset="0.55" stop-color="#F6F3FF"/>
+      <stop offset="1" stop-color="#FFF6F2"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="560" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDEBFF"/>
+      <stop offset="1" stop-color="#CADDFE"/>
+    </linearGradient>
+    <linearGradient id="shellPink" x1="560" y1="300" x2="1030" y2="710" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7DB8"/>
+      <stop offset="1" stop-color="#FF5A9F"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="250" y1="260" x2="500" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9EEFF"/>
+      <stop offset="1" stop-color="#A3D0FF"/>
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="1600" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#597FCB" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="28" fill="url(#bgSky)"/>
+  <rect y="560" width="1600" height="340" fill="url(#floor)"/>
+
+  <circle cx="220" cy="150" r="84" fill="#D5E8FF"/>
+  <circle cx="1360" cy="170" r="95" fill="#F0DFFF"/>
+  <circle cx="1500" cy="300" r="45" fill="#FFE3EB"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="130" y="200" width="350" height="240" rx="22" fill="url(#glass)" stroke="#7FB4F5" stroke-width="4"/>
+    <rect x="138" y="208" width="334" height="30" rx="15" fill="#98C5F8"/>
+    <circle cx="168" cy="223" r="6" fill="#F9FCFF"/>
+    <circle cx="190" cy="223" r="6" fill="#F9FCFF"/>
+    <circle cx="212" cy="223" r="6" fill="#F9FCFF"/>
+  </g>
+
+  <g stroke="#7CAAF0" stroke-width="6" stroke-linecap="round">
+    <path d="M480 330C600 280 670 270 760 320"/>
+    <path d="M1010 332C1110 285 1210 284 1360 350"/>
+    <path d="M765 610C640 650 520 700 370 760"/>
+    <path d="M860 620C980 668 1115 718 1290 780"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="810" cy="740" rx="305" ry="54" fill="#9AB8EE" fill-opacity="0.42"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="810" cy="560" rx="255" ry="165" fill="url(#shellPink)"/>
+    <ellipse cx="810" cy="595" rx="198" ry="118" fill="#FFD7E7"/>
+    <ellipse cx="810" cy="502" rx="190" ry="114" fill="#FF8DC0"/>
+
+    <ellipse cx="730" cy="458" rx="70" ry="78" fill="#6AB5FF"/>
+    <ellipse cx="890" cy="458" rx="70" ry="78" fill="#6AB5FF"/>
+    <ellipse cx="730" cy="458" rx="43" ry="48" fill="#FFFFFF"/>
+    <ellipse cx="890" cy="458" rx="43" ry="48" fill="#FFFFFF"/>
+    <circle cx="746" cy="444" r="12" fill="#1D3E84"/>
+    <circle cx="906" cy="444" r="12" fill="#1D3E84"/>
+    <circle cx="738" cy="436" r="4" fill="#FFFFFF"/>
+    <circle cx="898" cy="436" r="4" fill="#FFFFFF"/>
+
+    <path d="M770 545C790 566 830 566 850 545" stroke="#E9458F" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="672" cy="533" r="12" fill="#FF9EC9"/>
+    <circle cx="948" cy="533" r="12" fill="#FF9EC9"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="560" cy="600" rx="95" ry="76" fill="#FF6AAA"/>
+    <path d="M470 598C450 522 502 464 578 484C642 500 654 575 610 622C571 663 499 654 470 598Z" fill="#FF7DB8"/>
+    <circle cx="563" cy="566" r="18" fill="#A7D8FF"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <ellipse cx="1070" cy="600" rx="95" ry="76" fill="#FF6AAA"/>
+    <path d="M1157 598C1177 522 1125 464 1049 484C985 500 973 575 1017 622C1056 663 1128 654 1157 598Z" fill="#FF7DB8"/>
+    <circle cx="1060" cy="566" r="18" fill="#A7D8FF"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="1115" y="165" width="340" height="122" rx="25" fill="#1F3A93"/>
+  </g>
+  <text x="1285" y="242" text-anchor="middle" fill="#FFFFFF" font-family="Poppins, Inter, Arial, sans-serif" font-size="62" font-weight="700">OpenClaw</text>
+
+  <g fill="#8BC1FF" opacity="0.9">
+    <circle cx="520" cy="240" r="10"/>
+    <circle cx="560" cy="210" r="8"/>
+    <circle cx="595" cy="246" r="12"/>
+    <circle cx="1030" cy="245" r="9"/>
+    <circle cx="990" cy="215" r="7"/>
+  </g>
+
+  <text x="810" y="820" text-anchor="middle" fill="#4061A8" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="600">Cute agent vibes for practical automation</text>
+</svg>

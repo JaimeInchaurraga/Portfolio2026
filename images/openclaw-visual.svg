@@ -1,0 +1,54 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF1FF"/>
+      <stop offset="1" stop-color="#F7FAFF"/>
+    </linearGradient>
+    <linearGradient id="core" x1="540" y1="290" x2="1060" y2="610" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F3A93"/>
+      <stop offset="1" stop-color="#4E73DF"/>
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="1600" height="900" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1F3A93" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="28" fill="url(#bg)"/>
+
+  <circle cx="280" cy="210" r="140" fill="#DCE7FF"/>
+  <circle cx="1340" cy="690" r="170" fill="#E5EEFF"/>
+  <circle cx="1400" cy="180" r="92" fill="#EEF3FF"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="520" y="280" width="560" height="340" rx="28" fill="url(#core)"/>
+  </g>
+
+  <text x="800" y="430" text-anchor="middle" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="80" font-weight="700">OpenClaw</text>
+  <text x="800" y="490" text-anchor="middle" fill="#D7E3FF" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="500">Agent Runtime and Automation Layer</text>
+
+  <g stroke="#4E73DF" stroke-width="4">
+    <path d="M300 450H520"/>
+    <path d="M1080 450H1300"/>
+    <path d="M800 190V280"/>
+    <path d="M800 620V710"/>
+  </g>
+
+  <g fill="#FFFFFF" stroke="#89A6EE" stroke-width="3">
+    <rect x="180" y="390" width="210" height="120" rx="18"/>
+    <rect x="1210" y="390" width="210" height="120" rx="18"/>
+    <rect x="690" y="90" width="220" height="100" rx="18"/>
+    <rect x="680" y="710" width="240" height="110" rx="18"/>
+  </g>
+
+  <text x="285" y="442" text-anchor="middle" fill="#1F3A93" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">TOOLS</text>
+  <text x="285" y="475" text-anchor="middle" fill="#4B5C7F" font-family="Inter, Arial, sans-serif" font-size="20">Files, Web, Apps</text>
+
+  <text x="1315" y="442" text-anchor="middle" fill="#1F3A93" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">WORKSPACE</text>
+  <text x="1315" y="475" text-anchor="middle" fill="#4B5C7F" font-family="Inter, Arial, sans-serif" font-size="20">Rules and Memory</text>
+
+  <text x="800" y="138" text-anchor="middle" fill="#1F3A93" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">MODEL</text>
+  <text x="800" y="166" text-anchor="middle" fill="#4B5C7F" font-family="Inter, Arial, sans-serif" font-size="18">Haiku / Opus / Local</text>
+
+  <text x="800" y="760" text-anchor="middle" fill="#1F3A93" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">GATEWAY</text>
+  <text x="800" y="790" text-anchor="middle" fill="#4B5C7F" font-family="Inter, Arial, sans-serif" font-size="18">Telegram / CLI Access</text>
+</svg>

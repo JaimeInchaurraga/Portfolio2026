@@ -259,4 +259,38 @@
 
 			});
 
+				// Tabs for Skills section
+$('.tab-links a').on('click', function(e) {
+  e.preventDefault();
+
+  // Quitar active de todas
+  $('.tab-links a').removeClass('active');
+  $('.tab').removeClass('active');
+
+  // Activar el clicado
+  $(this).addClass('active');
+  var target = $(this).attr('href');
+  $(target).addClass('active');
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const links = document.querySelectorAll('.tab-links a');
+  const tabs  = document.querySelectorAll('.tab');
+
+  links.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      links.forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+      const id = link.getAttribute('href');
+      tabs.forEach(t => t.classList.remove('active'));
+      const target = document.querySelector(id);
+      if (target) target.classList.add('active');
+    });
+  });
+});
+
+
+
+
 })(jQuery);
