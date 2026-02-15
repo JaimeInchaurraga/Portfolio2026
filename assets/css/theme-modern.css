@@ -202,6 +202,10 @@ body.theme-modern .contact li a {
   color: var(--tm-text-muted);
 }
 
+body.theme-modern .contact li:before {
+  color: var(--tm-accent);
+}
+
 body.theme-modern .contact li a:hover {
   color: var(--tm-accent) !important;
 }
@@ -612,6 +616,10 @@ body.theme-modern.theme-light .theme-toggle {
 
 body.theme-modern.theme-light #header .logo strong {
   color: var(--tm-text);
+}
+
+body.theme-modern.theme-light .contact li:before {
+  color: #8f6a00;
 }
 
 body.theme-modern.theme-light a {

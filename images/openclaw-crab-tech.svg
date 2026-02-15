@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 860" role="img" aria-labelledby="title desc">
+  <title id="title">Humanoid crab automating technology tasks</title>
+  <desc id="desc">A futuristic humanoid crab using multiple tech tools, including sending a Telegram message to Jaime saying I´ts done boss.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0d12"/>
+      <stop offset="100%" stop-color="#171d27"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2330"/>
+      <stop offset="100%" stop-color="#121922"/>
+    </linearGradient>
+    <linearGradient id="crabShell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9b3f"/>
+      <stop offset="60%" stop-color="#ff7b2f"/>
+      <stop offset="100%" stop-color="#cf451d"/>
+    </linearGradient>
+    <linearGradient id="limb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb46b"/>
+      <stop offset="100%" stop-color="#e06426"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0.84  0 0 1 0 0.22  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="860" fill="url(#bg)"/>
+
+  <g opacity="0.28" stroke="#94a3b8" stroke-width="1">
+    <path d="M40 120H1360"/>
+    <path d="M40 430H1360"/>
+    <path d="M40 740H1360"/>
+    <path d="M200 40V820"/>
+    <path d="M700 40V820"/>
+    <path d="M1200 40V820"/>
+  </g>
+
+  <g transform="translate(700 445)">
+    <ellipse cx="0" cy="220" rx="255" ry="38" fill="#000" opacity="0.34"/>
+
+    <g filter="url(#softGlow)" opacity="0.35">
+      <circle cx="-6" cy="-26" r="164" fill="#ffd60a"/>
+    </g>
+
+    <g stroke-linecap="round" stroke-width="18" fill="none" stroke="url(#limb)">
+      <path d="M-218 -46 C-325 -95 -336 -136 -304 -173"/>
+      <path d="M218 -46 C325 -95 336 -136 304 -173"/>
+      <path d="M-192 44 C-288 102 -302 152 -268 192"/>
+      <path d="M192 44 C288 102 302 152 268 192"/>
+    </g>
+
+    <g fill="url(#crabShell)">
+      <ellipse cx="0" cy="-18" rx="162" ry="122"/>
+      <ellipse cx="0" cy="18" rx="122" ry="88" fill="#f06a2b"/>
+    </g>
+
+    <g fill="#fff">
+      <ellipse cx="-54" cy="-106" rx="28" ry="40"/>
+      <ellipse cx="54" cy="-106" rx="28" ry="40"/>
+    </g>
+    <g fill="#111827">
+      <circle cx="-54" cy="-96" r="12"/>
+      <circle cx="54" cy="-96" r="12"/>
+    </g>
+
+    <path d="M-46 6 C-30 26 30 26 46 6" stroke="#1f2937" stroke-width="7" fill="none"/>
+
+    <g fill="#ffb46b">
+      <rect x="-98" y="90" width="38" height="122" rx="18"/>
+      <rect x="60" y="90" width="38" height="122" rx="18"/>
+    </g>
+    <g fill="#f08a3d">
+      <rect x="-122" y="200" width="84" height="30" rx="15"/>
+      <rect x="38" y="200" width="84" height="30" rx="15"/>
+    </g>
+
+    <g fill="url(#limb)">
+      <path d="M-250 -170 C-278 -188 -295 -207 -304 -236 C-266 -226 -227 -205 -206 -184 Z"/>
+      <path d="M250 -170 C278 -188 295 -207 304 -236 C266 -226 227 -205 206 -184 Z"/>
+    </g>
+  </g>
+
+  <g transform="translate(138 116)">
+    <rect width="316" height="184" rx="18" fill="url(#card)" stroke="#334155"/>
+    <text x="26" y="42" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="20">Neural Dashboard</text>
+    <polyline points="26,140 76,112 124,126 172,88 222,100 286,66" fill="none" stroke="#ffd60a" stroke-width="4"/>
+    <circle cx="286" cy="66" r="6" fill="#ffd60a"/>
+    <rect x="24" y="158" width="110" height="8" rx="4" fill="#2f3b4d"/>
+    <rect x="142" y="158" width="148" height="8" rx="4" fill="#2f3b4d"/>
+  </g>
+
+  <g transform="translate(938 106)">
+    <rect width="326" height="204" rx="18" fill="url(#card)" stroke="#334155"/>
+    <text x="26" y="40" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="20">Automation Nodes</text>
+    <g fill="#f8fafc" opacity="0.94">
+      <rect x="22" y="66" width="84" height="32" rx="10"/>
+      <rect x="130" y="66" width="84" height="32" rx="10"/>
+      <rect x="238" y="66" width="64" height="32" rx="10"/>
+      <rect x="76" y="136" width="84" height="32" rx="10"/>
+      <rect x="188" y="136" width="84" height="32" rx="10"/>
+    </g>
+    <g stroke="#ffd60a" stroke-width="3">
+      <path d="M106 82H130"/>
+      <path d="M214 82H238"/>
+      <path d="M106 98L118 136"/>
+      <path d="M214 98L200 136"/>
+      <path d="M160 152H188"/>
+    </g>
+  </g>
+
+  <g transform="translate(88 560)">
+    <rect width="410" height="208" rx="18" fill="url(#card)" stroke="#334155"/>
+    <text x="26" y="44" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="20">Monitoring + Deploy</text>
+    <rect x="26" y="72" width="168" height="106" rx="12" fill="#0f172a" stroke="#475569"/>
+    <rect x="216" y="72" width="168" height="106" rx="12" fill="#0f172a" stroke="#475569"/>
+    <text x="40" y="102" fill="#93c5fd" font-family="'JetBrains Mono', monospace" font-size="14">CPU 48%</text>
+    <text x="40" y="124" fill="#86efac" font-family="'JetBrains Mono', monospace" font-size="14">AGENTS: ONLINE</text>
+    <text x="40" y="146" fill="#fca5a5" font-family="'JetBrains Mono', monospace" font-size="14">QUEUE: 0 ERRORS</text>
+    <text x="232" y="110" fill="#fde68a" font-family="'JetBrains Mono', monospace" font-size="14">v2.6 DEPLOYED</text>
+    <text x="232" y="132" fill="#c4b5fd" font-family="'JetBrains Mono', monospace" font-size="14">TELEGRAM ACTIVE</text>
+  </g>
+
+  <g transform="translate(936 532)">
+    <rect width="342" height="236" rx="18" fill="url(#card)" stroke="#334155"/>
+    <text x="26" y="42" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="20">Telegram Message</text>
+
+    <rect x="30" y="62" width="132" height="168" rx="20" fill="#0b1220" stroke="#475569"/>
+    <rect x="42" y="84" width="108" height="128" rx="12" fill="#111827"/>
+    <circle cx="96" cy="72" r="4" fill="#64748b"/>
+
+    <rect x="178" y="90" width="136" height="92" rx="14" fill="#1f2937" stroke="#ffd60a"/>
+    <path d="M196 182 L208 196 L222 182" fill="#1f2937" stroke="#ffd60a"/>
+    <text x="192" y="118" fill="#fde68a" font-family="'JetBrains Mono', monospace" font-size="14">To: Jaime</text>
+    <text x="192" y="146" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="15">I´ts done boss</text>
+
+    <circle cx="96" cy="216" r="9" fill="#475569"/>
+  </g>
+
+  <text x="700" y="820" text-anchor="middle" fill="#9ca3af" font-family="'JetBrains Mono', monospace" font-size="20">
+    OpenClaw x Telegram x Automation Operations
+  </text>
+</svg>
